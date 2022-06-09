@@ -1,0 +1,40 @@
+body {
+    background-color: #393E46;
+}
+
+// font-family: 'Roboto', sans-serif;
+// font-family: 'Montserrat', sans-serif;
+
+// Navbar
+header {
+    margin-bottom: 8rem;
+}
+nav {
+    font-family: 'Roboto', sans-serif;
+    background-color: #222831;
+    margin-bottom: 4rem;
+}
+
+// Main
+.name {
+    h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 100;
+        color: #EEEEEE;
+        letter-spacing: 0.3rem;
+        font-size: 4rem;
+        margin-bottom: 1.5rem;
+    }
+    h3 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        color: #EEEEEE;
+        letter-spacing: 0.1rem;
+        font-size: 1.5rem;
+    }
+    img {
+        width: 200px;
+        margin: 2.25rem 0;
+        border: solid #222831 0.3rem;
+    }
+}
