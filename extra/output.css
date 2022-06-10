@@ -2,15 +2,15 @@ body {
   background: radial-gradient(#393E46, #393e68);
 }
 
+header {
+  height: 7rem;
+}
 header nav {
   font-size: 1.7rem;
   font-family: "Roboto", sans-serif;
   background-color: #222831;
 }
 
-.presentation {
-  margin-top: 7rem;
-}
 .presentation h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 100;
@@ -80,8 +80,16 @@ header nav {
   color: #222831;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  background-color: #ffef82;
   padding: 1rem 0;
+}
+.website .website-icon .notes-app {
+  background-color: #ffef82;
+}
+.website .website-icon .usadas-chaves {
+  background-color: #fff;
+}
+.website .website-icon .tindog {
+  background-color: #ff4c68;
 }
 .website .website-icon h1 {
   font-weight: 800;
@@ -91,6 +99,30 @@ header nav {
 .website .website-icon p {
   margin: 1rem;
   font-size: 1.4rem;
+}
+
+.skills h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #DBE8D4;
+  letter-spacing: 0.15rem;
+  font-size: 1.6rem;
+}
+.skills hr {
+  margin: 1rem auto 2.25rem auto;
+  width: 10rem;
+  height: 0.25rem;
+  color: #DBE8D4;
+}
+
+footer {
+  text-align: center;
+}
+footer a {
+  font-size: 2.5rem;
+}
+footer a:not(:first-child) {
+  margin-left: 1.25rem;
 }
 
 /*# sourceMappingURL=output.css.map */

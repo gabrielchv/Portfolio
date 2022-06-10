@@ -17,15 +17,18 @@
 </head>
 <body>
   <!-- Navbar -->
-  <header class="mb-sm-5">
-    <nav class="fixed-top navbar navbar-expand navbar-dark">
+  <header>
+    <nav class="p-lg-2 p-1 fixed-top navbar navbar-expand navbar-dark">
       <div class="container-fluid">
-          <ul class="navbar-nav mx-auto">
+          <ul class="p-0 navbar-nav mx-auto">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Web</a>
+                <a class="nav-link" href="#websites">Web</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
               </li>
             </ul>
         </div>
@@ -35,7 +38,7 @@
 
   <article>
     <!-- Home -->
-    <section class="presentation mb-sm-5 mb-3">
+    <section class="presentation">
       <div class="container-fluid">
         <div class="text-center">
           <h1>GABRIEL CHAVES</h1>
@@ -46,9 +49,9 @@
         <div class="row">
           <div class="col-xl-5 col-lg-7 col-md-8 col-sm-10 mx-auto">
             <p>Por anos estudei programação por conta própria, e recentemente me juntei ao 
-              Instituto Federal de São Paulo, no câmpus Cubatão
+              Instituto Federal de São Paulo, no câmpus Cubatão, e agora curso superior em Análise e Desenvolvimento de Sistemas
             </p>
-            <p>Sempre me encontrei na computação, e recentemente me apaixonei no desenvolvimento 
+            <p id="websites">Sempre me encontrei na computação, e recentemente me apaixonei no desenvolvimento 
               de websites, tanto no âmbito back-end quanto front-end
             </p>
           </div>
@@ -57,7 +60,7 @@
     </section>
 
     <!-- Web -->
-    <section class="website">
+    <section class="website pt-sm-5 pt-3">
       <div class="container">
         <div class="text-center">
           <h3>WEBSITES</h3>
@@ -66,10 +69,30 @@
             <div class="text-center mb-4 col-xl-4 col-md-6 col-12">
               <a class="text-decoration-none" href="https://reactmongodb.herokuapp.com/login" target="_blank">
                 <div class="website-icon">
-                  <div class="website-title">
+                  <div class="notes-app website-title">
                     <h1>Notes App</h1>
                   </div>
-                  <p>Full-Stack app usando React, Typescript, Node, Express e Mongodb</p>
+                  <p>Full-Stack web-app usando React, Typescript, Node, Express e Mongodb, com sistema de autenticação de usuário e sessão</p>
+                </div>
+              </a>
+            </div>
+            <div class="text-center mb-4 col-xl-4 col-md-6 col-12">
+              <a class="text-decoration-none" href="https://gabrielchv.github.io/Usadas-Chaves/" target="_blank">
+                <div class="website-icon">
+                  <div class="usadas-chaves website-title">
+                    <h1>Usadas Chaves</h1>
+                  </div>
+                  <p>Website Front-End utilizando bootstrap que simula um e-commerce, sendo altamente otimizado para search engines</p>
+                </div>
+              </a>
+            </div>
+            <div class="text-center mb-4 col-xl-4 col-md-6 col-12">
+              <a class="text-decoration-none" href="https://gabrielchv.github.io/Tindog/" target="_blank">
+                <div class="website-icon">
+                  <div class="tindog website-title">
+                    <h1>Tindog</h1>
+                  </div>
+                  <p>Página que utiliza bootstrap, com exemplos da responsividade e tecnologias da library, que simula página propaganda de um aplicativo</p>
                 </div>
               </a>
             </div>
@@ -77,10 +100,29 @@
         </div>
       </div>
     </section>
+
+    <!-- Skills -->
+    <section class="skills text-center" id="skills">
+      <div class="container">
+        <h3>SKILLS</h3>
+        <hr>
+      </div>
+    </section>
   </article>
+
+  <!-- Skills -->
+  <footer class="my-5">
+    <div class="container">
+      <a title="Github" href="https://github.com/gabrielchv" class="link-dark"><i class="fa-brands fa-github"></i></a>
+      <a title="LinkedIn" href="https://www.linkedin.com/in/gabriel-chaves-386000221/" class="link-dark"><i class="fa-brands fa-linkedin"></i></a>
+      <a title="Email" href="mailto:gabriel.chaves.3720@outlook.com" class="link-dark"><i class="fa-solid fa-square-envelope"></i></a>
+    </div>
+  </footer>
+
 
 
   <!-- Scripts -->
+  <script src="https://kit.fontawesome.com/938b1900f8.js" crossorigin="anonymous"></script>
   <script src="extra/bootstrap.bundle.min.js"></script>
   <script src="src/script.js"></script>
 </body>
