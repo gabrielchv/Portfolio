@@ -58,7 +58,7 @@ header nav {
   font-size: 1.3rem;
 }
 .website hr {
-  margin: 1rem auto 3rem auto;
+  margin: 1rem auto 2.25rem auto;
   width: 10rem;
   height: 0.25rem;
   color: #DBE8D4;
@@ -66,7 +66,7 @@ header nav {
 .website .website-btn {
   padding-top: 40%;
   padding-left: 90%;
-  border-radius: 5%;
+  border-radius: 20px;
 }
 
 /*# sourceMappingURL=output.css.map */
