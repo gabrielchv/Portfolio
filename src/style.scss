@@ -1,11 +1,8 @@
 $font-color: #DBE8D4;
 
 body {
-    background: radial-gradient(#393E46, #2d304b);
+    background: radial-gradient(#393E46, #393e68);
 }
-
-// font-family: 'Roboto', sans-serif;
-// font-family: 'Montserrat', sans-serif;
 
 // Navbar
 header {
@@ -13,11 +10,11 @@ header {
         font-family: 'Roboto', sans-serif;
         background-color: #222831;
     }
-    margin-bottom: 6rem;
 }
 
 // Main
 .presentation {
+    margin-top: 6rem;
     h1 {
         font-family: 'Montserrat', sans-serif;
         font-weight: 100;
@@ -27,7 +24,7 @@ header {
         margin-bottom: 1.5rem;
     }
     hr {
-        margin: 1rem auto;
+        margin: 1rem auto 0 auto;
         width: 15rem;
         height: 0.25rem;
         color: $font-color;
@@ -54,7 +51,6 @@ header {
         margin: 0 auto;
         width: 40rem;
     }
-    margin-bottom: 5rem;
 }
 
 // Websites
@@ -67,10 +63,15 @@ header {
         font-size: 1.3rem;
     }
     hr {
-        margin: 1rem auto;
+        margin: 1rem auto 3rem auto;
         width: 10rem;
         height: 0.25rem;
         color: $font-color;
+    }
+    .website-btn{
+        padding-top: 40%;
+        padding-left: 90%;
+        border-radius: 5%;
     }
     margin-bottom: 5rem;
 }
