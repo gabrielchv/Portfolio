@@ -5,16 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gabriel Chaves | Desenvolvedor Web</title>
+    <link rel = "icon" href = "files/websiteIcon.png" type = "image/x-icon">
+
+    <!-- Bootstrap e fontes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../extra/bootstrap.min.css">
+
     <link rel="stylesheet" href="../extra/output.css">
 </head>
 <body>
   <!-- Navbar -->
-  <header>
-    <nav class="fixed-top navbar navbar-expand-sm navbar-dark">
+  <header class="mb-sm-5 mb-3">
+    <nav class="navbar-fixed-top navbar navbar-expand navbar-dark">
       <div class="container-fluid">
           <ul class="navbar-nav mx-auto">
               <li class="nav-item">
@@ -29,16 +33,41 @@
     </nav>
   </header>
 
-  <!-- Home -->
   <article>
-    <section class="name text-center">
+    <!-- Home -->
+    <section class="presentation">
       <div class="container-fluid">
-        <h1>GABRIEL CHAVES</h1>
-        <h3>DESENVOLVEDOR WEB</h3>
-        <img class="img-fluid rounded-circle" src="files/profilePic.jfif" alt="Profile Picture">
+        <div class="text-center">
+          <h1>GABRIEL CHAVES</h1>
+          <h3>DESENVOLVEDOR WEB</h3>
+          <hr>
+          <img class="img-fluid rounded-circle" src="files/profilePic.jfif" alt="Profile Picture">
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-8 col-sm-10 mx-auto">
+            <p>Por anos estudei programação por conta própria, e recentemente me juntei ao 
+              Instituto Federal de São Paulo, no câmpus Cubatão
+            </p>
+            <p>Sempre me encontrei na computação, e recentemente me apaixonei no desenvolvimento 
+              de websites, tanto no ambito back-end quanto front-end
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Web -->
+    <section class="website">
+      <div class="container-fluid">
+        <div class="text-center">
+          <h3>WEBSITES</h3>
+          <hr>
+        </div>
+        </div>
       </div>
     </section>
   </article>
+
 
   <!-- Scripts -->
   <script src="../extra/bootstrap.bundle.min.js"></script>

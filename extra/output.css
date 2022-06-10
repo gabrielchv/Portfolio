@@ -1,36 +1,70 @@
 body {
-  background-color: #393E46;
+  background: radial-gradient(#393E46, #2d304b);
 }
 
 header {
-  margin-bottom: 8rem;
+  margin-bottom: 6rem;
 }
-
-nav {
+header nav {
   font-family: "Roboto", sans-serif;
   background-color: #222831;
-  margin-bottom: 4rem;
 }
 
-.name h1 {
+.presentation {
+  margin-bottom: 5rem;
+}
+.presentation h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 100;
-  color: #EEEEEE;
+  color: #DBE8D4;
   letter-spacing: 0.3rem;
   font-size: 4rem;
   margin-bottom: 1.5rem;
 }
-.name h3 {
+.presentation hr {
+  margin: 1rem auto;
+  width: 15rem;
+  height: 0.25rem;
+  color: #DBE8D4;
+}
+.presentation h3 {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  color: #EEEEEE;
-  letter-spacing: 0.1rem;
-  font-size: 1.5rem;
+  color: #DBE8D4;
+  letter-spacing: 0.15rem;
+  font-size: 1.3rem;
 }
-.name img {
+.presentation img {
   width: 200px;
   margin: 2.25rem 0;
-  border: solid #222831 0.3rem;
+  border: solid #222831 0.2rem;
+}
+.presentation p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #DBE8D4;
+}
+.presentation .presentation-text {
+  margin: 0 auto;
+  width: 40rem;
+}
+
+.website {
+  margin-bottom: 5rem;
+}
+.website h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #DBE8D4;
+  letter-spacing: 0.15rem;
+  font-size: 1.3rem;
+}
+.website hr {
+  margin: 1rem auto;
+  width: 10rem;
+  height: 0.25rem;
+  color: #DBE8D4;
 }
 
 /*# sourceMappingURL=output.css.map */

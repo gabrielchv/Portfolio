@@ -1,5 +1,7 @@
+$font-color: #DBE8D4;
+
 body {
-    background-color: #393E46;
+    background: radial-gradient(#393E46, #2d304b);
 }
 
 // font-family: 'Roboto', sans-serif;
@@ -7,34 +9,68 @@ body {
 
 // Navbar
 header {
-    margin-bottom: 8rem;
-}
-nav {
-    font-family: 'Roboto', sans-serif;
-    background-color: #222831;
-    margin-bottom: 4rem;
+    nav {
+        font-family: 'Roboto', sans-serif;
+        background-color: #222831;
+    }
+    margin-bottom: 6rem;
 }
 
 // Main
-.name {
+.presentation {
     h1 {
         font-family: 'Montserrat', sans-serif;
         font-weight: 100;
-        color: #EEEEEE;
+        color: $font-color;
         letter-spacing: 0.3rem;
         font-size: 4rem;
         margin-bottom: 1.5rem;
     }
+    hr {
+        margin: 1rem auto;
+        width: 15rem;
+        height: 0.25rem;
+        color: $font-color;
+    }
     h3 {
         font-family: 'Montserrat', sans-serif;
         font-weight: 600;
-        color: #EEEEEE;
-        letter-spacing: 0.1rem;
-        font-size: 1.5rem;
+        color: $font-color;
+        letter-spacing: 0.15rem;
+        font-size: 1.3rem;
     }
     img {
         width: 200px;
         margin: 2.25rem 0;
-        border: solid #222831 0.3rem;
+        border: solid #222831 0.2rem;
     }
+    p {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 1rem;
+        color: $font-color;
+    }
+    .presentation-text {
+        margin: 0 auto;
+        width: 40rem;
+    }
+    margin-bottom: 5rem;
+}
+
+// Websites
+.website {
+    h3 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        color: $font-color;
+        letter-spacing: 0.15rem;
+        font-size: 1.3rem;
+    }
+    hr {
+        margin: 1rem auto;
+        width: 10rem;
+        height: 0.25rem;
+        color: $font-color;
+    }
+    margin-bottom: 5rem;
 }
