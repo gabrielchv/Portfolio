@@ -65,6 +65,7 @@ header nav {
   color: #DBE8D4;
 }
 .website .website-icon {
+  filter: brightness(100%);
   font-family: "Montserrat", sans-serif;
   height: auto;
   background-color: #222831;
@@ -100,6 +101,14 @@ header nav {
   margin: 1rem;
   font-size: 1.4rem;
 }
+.website .website-icon:hover, .website .website-icon:active, .website .website-icon:focus {
+  filter: brightness(60%);
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3 ease;
+  -o-transition: all 0.3 ease;
+  -ms-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+}
 
 .skills h3 {
   font-family: "Montserrat", sans-serif;
@@ -112,6 +121,17 @@ header nav {
   margin: 1rem auto 2.25rem auto;
   width: 10rem;
   height: 0.25rem;
+  color: #DBE8D4;
+}
+.skills .skill {
+  background-color: #222831;
+  border-radius: 20px;
+  width: 100%;
+}
+.skills .skill p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1.25rem;
   color: #DBE8D4;
 }
 

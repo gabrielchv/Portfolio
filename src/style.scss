@@ -56,6 +56,7 @@ header {
 
 // Websites
 .website {
+    
     h3 {
         font-family: 'Montserrat', sans-serif;
         font-weight: 600;
@@ -70,6 +71,7 @@ header {
         color: $font-color;
     }
     .website-icon {
+        filter: brightness(100%);
         font-family: 'Montserrat', sans-serif;
         height: auto;
         background-color: #222831;
@@ -104,6 +106,14 @@ header {
             margin: 1rem;
             font-size: 1.4rem;
         }
+        &:hover, &:active, &:focus {
+            filter: brightness(60%);
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3 ease;
+            -o-transition: all 0.3 ease;
+            -ms-transition: all 0.3 ease;
+            transition: all 0.3 ease;
+        }
     }
     margin-bottom: 5rem;
 }
@@ -122,6 +132,18 @@ header {
         width: 10rem;
         height: 0.25rem;
         color: $font-color;
+    }
+    .skill {
+        background-color: #222831;
+        border-radius: 20px;
+        width: 100%;
+
+        p {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 500;
+            font-size: 1.25rem;
+            color: $font-color;
+        }
     }
 }
 

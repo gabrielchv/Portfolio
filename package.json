@@ -4,7 +4,8 @@
   "description": "",
   "main": "script.js",
   "scripts": {
-    "scss": "sass --watch src/style.scss extra/output.css"
+    "scss": "sass --watch src/style.scss extra/output.css",
+    "ts" : "tsc --watch"
   },
   "author": "",
   "license": "ISC"
