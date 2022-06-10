@@ -75,7 +75,7 @@ header {
         background-color: #222831;
         color: $font-color;
         border-radius: 20px;
-        padding-bottom: 0.5rem;;
+        padding-bottom: 1rem;
         .website-title{
             display: table;
             text-align: center;
@@ -85,7 +85,7 @@ header {
             border-top-left-radius: 20px;
             border-top-right-radius: 20px;
             background-color: #ffef82;
-            padding: 0.2rem 0;
+            padding: 1rem 0;
         }
         h1 {
             font-weight: 800;
@@ -93,7 +93,7 @@ header {
             vertical-align: middle;
         }
         p {
-            margin: 0.5rem;
+            margin: 1rem;
             font-size: 1.4rem;
         }
     }

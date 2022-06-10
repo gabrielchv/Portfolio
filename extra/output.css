@@ -70,7 +70,7 @@ header nav {
   background-color: #222831;
   color: #DBE8D4;
   border-radius: 20px;
-  padding-bottom: 0.5rem;
+  padding-bottom: 1rem;
 }
 .website .website-icon .website-title {
   display: table;
@@ -81,7 +81,7 @@ header nav {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   background-color: #ffef82;
-  padding: 0.2rem 0;
+  padding: 1rem 0;
 }
 .website .website-icon h1 {
   font-weight: 800;
@@ -89,7 +89,7 @@ header nav {
   vertical-align: middle;
 }
 .website .website-icon p {
-  margin: 0.5rem;
+  margin: 1rem;
   font-size: 1.4rem;
 }
 
